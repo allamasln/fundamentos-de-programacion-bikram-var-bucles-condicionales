@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        console.log(1.- Crear variable tipo let de nombre variableSinValor declarada sin valor)
+
+        let variableSinValor;
+
+        console.log( 2.- Crear 2 variables tipo let de nombres booleano1 y booleano2 con valores booleanos)
+
+        let booleano1 = true;
+        let booleano2 = false;
+
+        console.log(3.- Crear variable tipo const de nombre PI declarada con valor 3.14)
+
+        const PI = 3.14
+
+        console.log (4.- Crear variable tipo const de nombre TAU declarada con valor 2 veces PI)
+
+        const TAU = 2*PI
+
+        console.log ( 5.- Crear variable booleanoAnd cuyo valor sea la comparación booleana booleano1 and booleano2)
+
+        let booleanoAnd = booleano1 == booleano2;
+
+        console.log( 6.- Crear variable booleanoNot cuyo valor sea la compracación booleana no booleano1)
+
+        let booleanoNot = booleano1 !== booleano2;
+
+        console.log(7.- Crear variable booleanoMix0 cuyo valor sea la compración booleana (booleano1 or booleano2) and (booleano1 or (not booleano1 and not booleano2)))
+
+        let booleanoMix0 = booleanoAnd == booleano1 || booleanoNot;
+
+        console.log( 8.- Crear variable incrementarDesp con valor 2 y asigna su valor con postincremento a resultadoDesp)
+
+        let incrementarDesp = 2;
+
+        let resultadoDesp = incrementarDesp + 2;
+
+        console.log( 9.- Crear variable incrementarAntes con valor 2 y asigna su valor con preincremento a resultadoAntes)
+
+        let incrementarAntes = 2;
+        let resultadoAntes = 2 + incrementarAntes;
+
+        console.log(Parte 2)
+        console.log(13.- Crear variable tipo let de nombre variableValorNumerico declarada con un valor numérico cualquiera)
+
+        let variableValorNumerico = 5;
+
+        console.log (14.- Crear variable tipo const de nombre MiNombre declarada con valor tu nombre)
+
+        const MiNombre = "Dani";
+
+        console.log( 15.- Crear variable tipo const de nombre MiNumeroFav declarada con valor numérico)
+
+        const MiNumeroFav = 8;
+
+        console.log (16.- Crear variable booleanoOr cuyo calor sea la comparación booleana booleano1 or booleano2)
+
+        let booleanoOr = booleano1 || booleano2;
+
+        console.log(17.- Crear variable booleanoMix1 cuyo valor sea la comparación booleana (booleano1 and (TAU/2 sea igual a PI)) or (variableValorNumerico mayor o igual que MiNumeroFav))
+
+        let booleanoMix1 = booleano1 && TAU/2 == PI || variableValorNumerico >= MiNumeroFav;
+
+        console.log(18.- Crear variable seisNoEsNueve cuyo valor sea la comparación booleana 6 no es estrictamente igual que 9)
+
+        let seisNoEsNueve = 6 !=== 9;
+
+        console.log(19.- Crear variable booleanoMix2 cuyo valor sea la comparación booleana variableValorNumerico positivo (0 no incluido) o menor que -(MiNumeroFav * TAU))
+
+        let booleanoMix2 = variableValorNumerico > 0 || variableValorNumerico < (MiNumeroFav * TAU);
+
+        console.log(20.- Crear variable valorSuma cuyo valor sea la suma de MiNumeroFav y variableValorNumerico)
+
+        let valorSuma = MiNumeroFav + variableValorNumerico;
+
+        console.log(21.- Crear variable valorResta cuyo valor sea la resta de MiNumeroFav y variableValorNumerico)
+
+        let valorResta = MiNumeroFav - variableValorNumerico;
+
+        console.log(22.- Crear variable valorMultiplicación cuyo valor sea la multiplicación de MiNumeroFav por variableValorNumerico)
+
+        let valorMultiplicación = MiNumeroFav * variableValorNumerico;
+
+        console.log(23.- Crear variable valorDivisión cuyo valor sea la división de MiNumeroFav entre 3)
+
+        let valorDivisión = MiNumeroFav / 3;
+
+    </script>
+</body>
+</html>
